@@ -105,6 +105,7 @@ export default class Keyboard {
       if (e.code.substr(0, 5) !== 'Arrow') {
         e.preventDefault();
       } else {
+        document.querySelector(`.${e.code}`).classList.add('active');
         this.textarea.focus();
         return;
       }
