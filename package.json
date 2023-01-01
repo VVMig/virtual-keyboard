@@ -28,9 +28,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^2.0.2",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "webpack": "^4.42.1"
+    "webpack": "^5.75.0"
   }
 }
